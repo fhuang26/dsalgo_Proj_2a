@@ -94,8 +94,8 @@ this can be a dense group graph like a complete graph.
 * We do BFS (breath-first search) with a visited set to visit each group once.
    
 * Time: O(N*(M + N)), where M is the number of users and N is the number of groups.
-                For worst case, most users may be in all groups, g3.get_groups()
-                returns a list of neighbor groups of group g3, the graph of groups is
+                For worst case, most users may be in all groups, g2.get_groups()
+                returns a list of neighbor groups of group g2, the graph of groups is
                 dense, and it traverses each group once.
    
 * Space: O(M + N), where M is the number of users and N is the number of groups.
