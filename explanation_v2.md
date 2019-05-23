@@ -1,4 +1,4 @@
-Seven required items are fixed as follows.
+8 required items are fixed as follows.
 
 ### (1) problem_1.py LRU Cache
 issue: our_cache.get(), a blank value, was not covered in test cases.
